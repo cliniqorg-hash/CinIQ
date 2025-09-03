@@ -1,0 +1,35 @@
+{
+  "name": "cliniq",
+  "version": "1.0.0",
+  "description": "Professional Healthcare AI Platform",
+  "main": "server.js",
+  "dependencies": {
+    "@headlessui/react": "^1.7.17",
+    "autoprefixer": "^10.4.16",
+    "axios": "^1.6.0",
+    "firebase": "^12.1.0",
+    "framer-motion": "^10.16.0",
+    "lucide-react": "^0.294.0",
+    "next": "^14.0.0",
+    "postcss": "^8.4.31",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-markdown": "^9.0.1",
+    "react-syntax-highlighter": "^15.5.0",
+    "tailwindcss": "^3.3.0",
+    "firebase-frameworks": "^0.11.0",
+    "firebase-functions": "^6.0.1",
+    "firebase-admin": "^11.11.1"
+  },
+  "keywords": [
+    "healthcare",
+    "ai",
+    "medical",
+    "platform"
+  ],
+  "author": "CLinIQ Team",
+  "license": "MIT",
+  "engines": {
+    "node": "20"
+  }
+}
