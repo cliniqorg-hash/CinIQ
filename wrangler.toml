@@ -1,0 +1,19 @@
+name = "cliniq-medical-platform"
+compatibility_date = "2024-01-15"
+compatibility_flags = ["nodejs_compat"]
+
+[env.production]
+name = "cliniq-medical-platform"
+
+[env.preview]
+name = "cliniq-medical-platform-preview"
+
+# Build configuration
+[build]
+command = "npm run build"
+cwd = "."
+
+# Pages configuration
+[[pages_builds]]
+build_command = "npm run build"
+build_output_directory = "out"

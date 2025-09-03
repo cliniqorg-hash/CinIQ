@@ -1,0 +1,15 @@
+# Cloudflare Pages Redirects Configuration
+
+# Redirect www to non-www (if needed)
+# https://www.cliniq.org/* https://cliniq.org/:splat 301
+
+# Redirect old paths to new ones (if any)
+# /old-path/* /new-path/:splat 301
+
+# Handle SPA routing for client-side navigation
+# /tools/* /tools/:splat 200
+# /chat/* /chat/:splat 200
+# /about/* /about/:splat 200
+
+# Custom 404 page
+/* /404.html 404
